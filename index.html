@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+<title>Unit converter</title>
+</head>
+<body>
+
+<div>
+<h1>Unit converter</h1>
+<p>Please insert the lenght value you want to convert:</p>
+
+<br>
+
+  <form action="/app.py">
+    <label for="value">Input value:</label>
+    <input type="number" id="value" name="value" placeholder="2.54...">
+
+    <label for="conv_value">Convert to:</label>
+    <select id="conv_value" name="conv_value">
+      <option value="mm">mm (millimeter)</option>
+      <option value="in">in (inch)</option>
+      <option value="cm">cm (centimeter)</option>
+    </select>
+
+    <input type="submit" value="Convert">
+  </form>
+</div>
+
+</body>
+</html>
