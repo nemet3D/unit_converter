@@ -4,7 +4,7 @@ q = u.Quantity
 
 c = 2.998 * (10**8) * u.m / u.sec
 c_converted = c.to('km/hour')
-print('Viteaz luminii in metri pe secunda este: {} . Convertit in kilometri pe ora este {} .' .format(c, c_converted))
+print('Viteza luminii in metri pe secunda este: {} . Convertit in kilometri pe ora este {} .' .format(c, c_converted))
 
 rho = 62.4 * u.lb / u.ft**3
 rho_converted = rho.to('kg/m**3')
